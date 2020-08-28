@@ -1,0 +1,4 @@
+#Fri Aug 28 12:03:36 IST 2020
+base.0=C\:\\Users\\Raman\\Desktop\\myweatherapp\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\out\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
