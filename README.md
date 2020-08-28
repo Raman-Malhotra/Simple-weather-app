@@ -1,16 +1,13 @@
 # myweatherapp
 
-A new Flutter application.
+this is a simple app which tracks live weather from an api
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+when you open the app first it will detect your live location and display weather according to it.The icon near city name changes with weather condition.You can also search weather of other cities
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![WhatsApp Image 2020-08-28 at 2 19 30 PM (1)](https://user-images.githubusercontent.com/68217907/91542539-a5aad500-e93b-11ea-8b13-66a895653c05.jpeg)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![WhatsApp Image 2020-08-28 at 2 19 30 PM](https://user-images.githubusercontent.com/68217907/91542847-edc9f780-e93b-11ea-92af-f6a991d6c6dc.jpeg)
+![WhatsApp Video 2020-08-28 at 2 31 53 PM (1)](https://user-images.githubusercontent.com/68217907/91543373-1c47d280-e93c-11ea-9177-07f68cd21214.gif)
