@@ -45,29 +45,35 @@ class _DisplayState extends State<Display> {
 
 
   }String locationi;
-  Future<Void> gert ()
+  void gert ()
 async{
    await getWeather();
 }
   void getWeather() async{
 
     Response response= await get("http://api.openweathermap.org/data/2.5/weather?q=$locationi&appid=03e0b5dae42b2dbbdf38ace0e63902f3&units=metric");
-    if(response.statusCode==200){
-    var temperature=jsonDecode(response.body)['main']['temp'];
-    var pressure=jsonDecode(response.body)['main']['pressure'];
-    var humidity=jsonDecode(response.body)['main']['humidity'];
-    var icon=jsonDecode(response.body)['weather'][0]['icon'];
-    var city=jsonDecode(response.body)['name'];
-    temperaturef=temperature;
-    iconf=icon;
-    humidityf=humidity;
-    cityf=city;
-    pressuref=pressure;
-    print(cityf);}
+    if(response.statusCode==200){setState(() {
+      var temperature=jsonDecode(response.body)['main']['temp'];
+      var pressure=jsonDecode(response.body)['main']['pressure'];
+      var humidity=jsonDecode(response.body)['main']['humidity'];
+      var icon=jsonDecode(response.body)['weather'][0]['icon'];
+      var city=jsonDecode(response.body)['name'];
+
+      temperaturef=temperature;
+      iconf=icon;
+      humidityf=humidity;
+      cityf=city;
+      pressuref=pressure;
+      print(cityf);
+    });
+   }
     else{
-      temperaturef=0;
-      cityf="error";
-      humidityf=0;
+      setState(() {
+        temperaturef=0;
+        cityf="error";
+        humidityf=0;
+      });
+
 
     }
 

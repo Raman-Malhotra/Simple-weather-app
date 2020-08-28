@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\Raman\\Desktop\\myweatherapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
+            "outputFile": "C:\\Users\\Raman\\Desktop\\simpleweatherapp\\build\\app\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-te\\values-te.xml",
             "map": [
                 {
                     "source": "C:\\Users\\Raman\\.gradle\\caches\\transforms-2\\files-2.1\\f6e28e76b564a7d311282db93efa8cf3\\jetified-play-services-basement-17.2.1\\res\\values-te\\values.xml",
