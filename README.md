@@ -1,4 +1,4 @@
-# myweatherapp
+# My Weather App:A mini Weather App
 
 this is a simple app which tracks live weather from an api
 
